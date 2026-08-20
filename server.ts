@@ -1,6 +1,6 @@
 import "./error-capture";
 
-import { consumeLastCapturedError } from "./lib/error-capture";
+import { consumeLastCapturedError } from "./error-capture";
 import { renderErrorPage } from "./error-page";
 
 type ServerEntry = {
